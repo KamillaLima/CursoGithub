@@ -1,0 +1,17 @@
+Git init
+git status 
+git log (vejo meus commits)
+git remote (mostra os repositorios que a minha pasta conhece)
+git push (envia alteração)
+git pull (puxa as modificações de um repositorio já existente)
+git clone (clona tudo de um repositorio já existente)
+git remote add origin -------url ou caminho do projeto------ ( é um padrao no github chamar de origin )
+git clone ------url ou caminho do projeto---- Cópia(ou o nome que eu queira dar pra esse projeto na minha máquina)
+git push origin master 
+git pull origin master
+git branch  --nome da branch--(cria um novo "galho")
+git checkout --nome da branch-- (entra nesse "galho")
+DICA: git checkout -b --nome da branch-- ( resume os dois comandos acima <3)
+git merge --nome da branch--(puxa as alterações da branch conteudo para a master,por exemplo)
+git rebase --nome da branch-- ( também puxa as alterações)
+DICA : Utilizar o merge,porque ele salva todos os commits anteriores que tiverem acontecido em cada um dos "galhos"
