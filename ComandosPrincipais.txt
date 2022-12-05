@@ -16,3 +16,4 @@ git merge --nome da branch--(puxa as alterações da branch conteudo para a mast
 git rebase --nome da branch-- ( também puxa as alterações)
 DICA : Utilizar o merge,porque ele salva todos os commits anteriores que tiverem acontecido em cada um dos "galhos"
 git checkout -- nome do arquivo - Apaga as alterações antes mesmo de eu dar commit (caso eu queira voltar pro estado que o meu arquivo estava no inicio do dia por exemplo)
+git revert ---codigo do meu commit -  Puxa as alterações de um commit especifico(para conseguir o codigo é só dar o comando git revert)
