@@ -15,5 +15,4 @@ DICA: git checkout -b --nome da branch-- ( resume os dois comandos acima <3)
 git merge --nome da branch--(puxa as alterações da branch conteudo para a master,por exemplo)
 git rebase --nome da branch-- ( também puxa as alterações)
 DICA : Utilizar o merge,porque ele salva todos os commits anteriores que tiverem acontecido em cada um dos "galhos"
-git checkout -- nome do arquivo - Apaga as alterações antes mesmo de eu salvar (caso eu queira voltar pro estado que o meu arquivo estava no inicio do dia por exemplo)
-git reset HEAD nome do arquivo - Caso eu ja tenha adicionado,entretanto quero voltar atrás(antes de eu dar commit)
+git checkout -- nome do arquivo - Apaga as alterações antes mesmo de eu dar commit (caso eu queira voltar pro estado que o meu arquivo estava no inicio do dia por exemplo)
